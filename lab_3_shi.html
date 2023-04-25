@@ -25,12 +25,12 @@
             <img src="images/v13_267.png" alt="" id="logo">
             <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
             <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button>
-               <div id="mobile_menu">                                         
+               <div id="mobile_menu">
                   <ul id="menu">
                      <div class = "nav_link">
-                        <h1> +79043278040 <span class="flare"> </span></h1>  
-                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>   
-                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>             
+                        <h1> +79043278040 <span class="flare"> </span></h1>
+                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>
+                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>
                      </div>
                      <div class = "nav_menu">
                         <!-- href="#" -->
@@ -44,7 +44,7 @@
                      </div>
                   </ul>
                </div>
-            
+
             <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
             <script>
                function change_mobile_menu(){
@@ -80,11 +80,11 @@
             </div>
             <div id="services_block">
                <ul id="services_ul">
-                  <li class="services_li">&#8226 Разработка и исследование современных информационных и веб-технологий; </li>
-                  <li class="services_li">&#8226 Разработка функциональных программных решений в области проектной, научной и инженерной деятельности на основе веб-технологий с целью повышения эффективности и практической значимости научно-исследовательской деятельности; </li>
-                  <li class="services_li">&#8226 Проектировка, разработка и продвижение мобильных приложений для платформ платформ  iOS и Android;</li>
-                  <li class="services_li">&#8226 Автоматизация бизнес-процессов. Мы используем готовые решения, но можем разработать необходимые интеграции и модули для полноценной автоматизации;</li>
-                  <li class="services_li"> &#8226 Создание адаптивных и подготовленных для дальнейшего SEO продвижения сайтов.</li>
+                  <li class="services_li"><p>&#8226 Разработка и исследование современных информационных и веб-технологий; </p></li>
+                  <li class="services_li"><p>&#8226 Разработка функциональных программных решений в области проектной, научной и инженерной деятельности на основе веб-технологий с целью повышения эффективности и практической значимости научно-исследовательской деятельности; </p></li>
+                  <li class="services_li"><p>&#8226 Проектировка, разработка и продвижение мобильных приложений для платформ платформ  iOS и Android;</p></li>
+                  <li class="services_li"><p>&#8226 Автоматизация бизнес-процессов. Мы используем готовые решения, но можем разработать необходимые интеграции и модули для полноценной автоматизации;</p></li>
+                  <li class="services_li"><p>&#8226 Создание адаптивных и подготовленных для дальнейшего SEO продвижения сайтов.</p></li>
                </ul>
             </div>
 			</div>
@@ -110,16 +110,16 @@
          <div class="cube"></div>
          <div class="cube"></div>
          <div class="cube"></div>
-         <div class="cube"></div>   
-         <div class="cube"></div>  
+         <div class="cube"></div>
+         <div class="cube"></div>
    <p>Связаться с нами</p>
    <form name="Form">
       <input type="email" placeholder="Ваша почта" name="email" required>
       <input type="tel" placeholder="Ваш номер" name="phone" required>
       <textarea
          type="text" class = "com" placeholder="Цель обращения" name="comment" required>
-      </textarea> 
-      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить"> 
+      </textarea>
+      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
    </form>
 
    </body>
@@ -134,13 +134,13 @@
       document.body.addEventListener('dblclick', dbClick());
 
 
-      // СКРОЛЛ 
+      // СКРОЛЛ
       function move(st){
          var s = document.getElementById(st);
          $.fancybox.close(true)
-         s.scrollIntoView({ 
+         s.scrollIntoView({
                block: 'start', // к ближайшей границе экрана
-               behavior: 'smooth', // и плавно 
+               behavior: 'smooth', // и плавно
             });
          console.log(st)
          console.log(s)

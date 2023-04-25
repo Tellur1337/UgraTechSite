@@ -25,33 +25,48 @@
          <img src="images/v13_267.png" alt="" id="logo">
          <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
          <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button >
-            <div id="mobile_menu">                                         
+            <div id="mobile_menu">
                <ul id="menu">
                   <div class = "nav_link">
-                     <h1> Мы находимся:  <span class="flare"> </span></h1>  
-                     <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>   
-                     <p> Dolingersy@ya.ru <span class="flare"> </span></p>    
-                     <img src="images/v13_258.png" alt="" id="line_img_3">         
+                     <h1> Мы находимся:  <span class="flare"> </span></h1>
+                     <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>
+                     <p> Dolingersy@ya.ru <span class="flare"> </span></p>
+                     <img src="images/v13_258.png" alt="" id="line_img_3">
                   </div>
                   <div class = "nav_menu">
                      <!-- href="#" -->
                      <img src="images/v13_259.png" alt="" id="line_img_9">
                      <!-- <img src="images/v13_259.png" alt="" id="line_img_5"> -->
-                     <a id="lab"  class = "menu_btn" onclick="move('labs')"> <img src="images/icons8-микроскоп-50.png" alt=""> <li>Лаборатории <span class="flare">  </li></a>
+                     <a id="lab"  class = "menu_btn" onclick="move('labs')">
+                        <img src="images/icons8-микроскоп-50.png" alt="">
+                        <li>
+                           Лаборатории <span class="flare">
+                        </li>
+                     </a>
                      <img src="images/v13_259.png" alt="" id="line_img_6">
-                     <a id="proj"  class = "menu_btn" onclick="move('projects')"> <img src="images/icons8-группа-проектов-50.png"alt=""><li>Проекты <span class="flare"> </li></a>
+                     <a id="proj"  class = "menu_btn" onclick="move('projects')">
+                        <img src="images/icons8-группа-проектов-50.png"alt="">
+                        <li>
+                           Проекты <span class="flare">
+                        </li>
+                     </a>
                      <img src="images/v13_258.png" alt="" id="line_img_7">
-                     <a id="link" onclick="open_contacs()" class = "menu_btn" > <img src="images/icons8-чат-50.png"alt=""><li>Связь с нами <span class="flare"> </li></a>
+                     <a id="link" onclick="open_contacs()" class = "menu_btn" >
+                        <img src="images/icons8-чат-50.png"alt="">
+                        <li>
+                           Связь с нами <span class="flare">
+                        </li>
+                     </a>
                      <img src="images/v13_259.png" alt="" id="line_img_8">
                   </div>
                   <div class = "nav_footer">
                      <img src="images/v13_258.png" alt="" id="line_img_4">
                      <border> <span class="flare"></span> </border>
-                     <img src="images/10.png" alt=""> 
+                     <img src="images/10.png" alt="">
                   </div>
                </ul>
             </div>
-         
+
          <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
          <script>
             function change_mobile_menu(){
@@ -93,12 +108,12 @@
                   <h2  class="lab_cart_t">Лаборатория "Автоматика и вторичные цепи" </h2>
                   <p  class="lab_cart_t">Лаборатория оснащена современным оборудованием, позволяющим имитировать работу автоматики и вторичных цепей электрических подстанций напряжением 6-220 кВ.</p>
                </div>
-               <div class="lab_cart" onclick="tolab('lab2')">
+               <div class="lab_cart" onclick="tolab('lab2')" >
                   <img src="images/l2.jpg" alt="" class="lab_img">
                   <h2  class="lab_cart_t">Лаборатория "Бизнес решений" </h2>
                   <p  class="lab_cart_t">Дизайн-проектов, конструкторской документации, создания демонстрационных макетов, удобных и профессиональных веб-сайтов, мобильных приложений и лендинга страницы.</p>
                </div>
-               <div class="lab_cart" onclick="tolab('lab3')">
+               <div class="lab_cart" onclick="tolab('lab3')" >
                   <img src="images/l3.jpg" alt="" class="lab_img">
                   <h2  class="lab_cart_t">Лаборатория «Передовых цифровых технологий» </h2>
                   <p  class="lab_cart_t">Направлена на разработку приложений с использованием технологий виртуальной и дополненной реальностей.</p>
@@ -142,11 +157,11 @@
                            <div class="projects-fancy" id="hidden2">
                               <div class="fancy-text" id="fancy-text">
                                  <h2 class="gal_h2" id="fancy_h2">Система автоматизированного позиционирования солнечных панелей по направлению к Солнцу в условиях Арктики и районов Крайнего Севера</h2>
-                                 <p class="gal_p" id="fancy_p">В Инжиниринговом центра ведётся разработка системы автоматизированного энергоэффективного позиционирования солнечных панелей по направлению 
-                                    к солнцу в условиях Арктики и районов Крайнего Севера. Существующие системы на рынке обладают рядом недостатков такие как неспособность работы в условиях экстремально 
+                                 <p class="gal_p" id="fancy_p">В Инжиниринговом центра ведётся разработка системы автоматизированного энергоэффективного позиционирования солнечных панелей по направлению
+                                    к солнцу в условиях Арктики и районов Крайнего Севера. Существующие системы на рынке обладают рядом недостатков такие как неспособность работы в условиях экстремально
                                     низких температур и большого количества осадков в виде снега.
-                                    <br>Разработка предполагает комплексный подход к созданию нового технического решения, благодаря чему удается достичь максимальных экономических и экологических 
-                                    показателей, при этом получить новую конструкцию стойкую к низким температурам. Для сохранения эффективности работы в условиях обильных осадков в виде снега используется 
+                                    <br>Разработка предполагает комплексный подход к созданию нового технического решения, благодаря чему удается достичь максимальных экономических и экологических
+                                    показателей, при этом получить новую конструкцию стойкую к низким температурам. Для сохранения эффективности работы в условиях обильных осадков в виде снега используется
                                     интеллектуальная система очистки панелей.
                                     <br>Применение системы автоматического позиционирования позволит:
 <br>-  Повысить эффективность использования фотоэлектрических панелей в северных условиях до 60%, уменьшить установленную мощность солнечных электростанций;
@@ -165,8 +180,8 @@
                            <div class="projects-fancy" id="hidden3">
                               <div class="fancy-text" id="fancy-text">
                                  <h2 class="gal_h2" id="fancy_h2">Виртуальный 360 тур по Югорскому университету</h2>
-                                 <p class="gal_p" id="fancy_p">Выполнен в рамках внутреннего гранта ЮГУ. Представляет собой набор панорамных снимков с возможностью переходов между ними. 
-                                 Данный проект был создан для повышение уровня осведомлённости будущих абитуриентов и гостей с инфраструктурой университета. Создан на основе панорамных 360 снимков. 
+                                 <p class="gal_p" id="fancy_p">Выполнен в рамках внутреннего гранта ЮГУ. Представляет собой набор панорамных снимков с возможностью переходов между ними.
+                                 Данный проект был создан для повышение уровня осведомлённости будущих абитуриентов и гостей с инфраструктурой университета. Создан на основе панорамных 360 снимков.
                                  Полученное изображение при помощи Java скрипта располагается на холсте, а изображения обрабатываются при помощи нейросети, уменьшается их объём с минимальной потерей качества.</p>
                               </div>
                               <div class="fancy-pic" id = "fancy-pic">
@@ -180,8 +195,8 @@
                            <div class="projects-fancy" id="hidden4">
                               <div class="fancy-text" id="fancy-text">
                                  <h2 class="gal_h2" id="fancy_h2">Экскурсия по виртуальному карбоновому полигону «Мухрино»</h2>
-                                 <p class="gal_p" id="fancy_p">Использовалось трёхмерное моделирование для изображения территории свыше 1га, включающую в себя природу, инфраструктуру, устройства сбора данных, 
-                                 мостки для передвижения. Выполняет информационную рекламную функцию с последующим представлением в качестве виртуального полигона для проведения ознакомительных практик студентов направления экология. 
+                                 <p class="gal_p" id="fancy_p">Использовалось трёхмерное моделирование для изображения территории свыше 1га, включающую в себя природу, инфраструктуру, устройства сбора данных,
+                                 мостки для передвижения. Выполняет информационную рекламную функцию с последующим представлением в качестве виртуального полигона для проведения ознакомительных практик студентов направления экология.
                                  Разработан при помощи игрового движка «Unity 3d».</p>
                               </div>
                               <div class="fancy-pic" id = "fancy-pic">
@@ -251,21 +266,19 @@
          </div>
          <footer>
             <img src="images/v13_268.png" alt="" id="f_logo">
-				<ul id="footer_ul">
-					<li id="footer_li">
-						<p id=""class="footer_btn">Адрес: Город Ханты-Мансийск, ул.Чехова 16а </p>
-					</li>
-					<li>
-						<p id="" class="footer_btn">Почта: Dolingersy@ya.ru</p>
-					</li>
-					<li >
-						<p id="" id="footer_btn">Телефон: 89043278040</p>
-					</li>
-				</ul>
+            <ul id="footer_ul">
+               <li id="footer_li">
+                  <p id=""class="footer_btn">Адрес: г. Ханты-Мансийск,<br> ул.Чехова 16а</p>
+               </li>
+               <li>
+                  <p id="" class="footer_btn">Почта: Dolingersy@ya.ru</p>
+               </li>
+               <li >
+                  <p id="" id="footer_btn">Телефон: 89043278040</p>
+               </li>
+            </ul>
          </footer>
 		</div>
-
-     
 
       <div id="project" style="display: none;">
          <p>Название</p>
@@ -281,18 +294,17 @@
          <div class="cube"></div>
          <div class="cube"></div>
          <div class="cube"></div>
-         <div class="cube"></div>   
-         <div class="cube"></div>  
+         <div class="cube"></div>
+         <div class="cube"></div>
    <p>Связаться с нами</p>
    <form name="Form">
       <input type="email" placeholder="Ваша почта" name="email" required>
       <input type="tel" placeholder="Ваш номер" name="phone" required>
       <textarea
          type="text" class = "com" placeholder="Цель обращения" name="comment" required>
-      </textarea> 
-      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить"> 
+      </textarea>
+      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
    </form>
-   
 
    </body>
    <script >
@@ -306,13 +318,13 @@
       document.body.addEventListener('dblclick', dbClick());
 
 
-      // СКРОЛЛ 
+      // СКРОЛЛ
       function move(st){
          var s = document.getElementById(st);
          $.fancybox.close(true)
-         s.scrollIntoView({ 
+         s.scrollIntoView({
                block: 'start', // к ближайшей границе экрана
-               behavior: 'smooth', // и плавно 
+               behavior: 'smooth', // и плавно
             });
          console.log(st)
          console.log(s)
@@ -510,6 +522,6 @@
       }
       //
       window.onscroll = scr
-      
+
    </script>
 </html>

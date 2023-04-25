@@ -25,12 +25,12 @@
             <img src="images/v13_267.png" alt="" id="logo">
             <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
             <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button>
-               <div id="mobile_menu">                                         
+               <div id="mobile_menu">
                   <ul id="menu">
                      <div class = "nav_link">
-                        <h1> +79043278040 <span class="flare"> </span></h1>  
-                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>   
-                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>             
+                        <h1> +79043278040 <span class="flare"> </span></h1>
+                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>
+                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>
                      </div>
                      <div class = "nav_menu">
                         <!-- href="#" -->
@@ -44,7 +44,7 @@
                      </div>
                   </ul>
                </div>
-            
+
             <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
             <script>
                function change_mobile_menu(){
@@ -87,19 +87,19 @@
             </div>
             <div id="services_block">
                <ul id="services_ul">
-                  <li class="services_li">&#8226 Оптимизация структуры автономных энергетических систем;</li>
-                  <li class="services_li">&#8226 Организация и проведение контроля и мониторинга качества электрической энергии
+                  <li class="services_li"><p>&#8226 Оптимизация структуры автономных энергетических систем;</p></li>
+                  <li class="services_li"><p>&#8226 Организация и проведение контроля и мониторинга качества электрической энергии
                         в точках передачи (поставки) электрической энергии пользователям электрических
-                        сетей;</li>
-                  <li class="services_li">&#8226 Проведение энергетических обследований в соответствии с Федеральным законом
-                     No261 от 23 ноября 2009 г. «Об энергосбережении;</li>
-                  <li class="services_li">&#8226 Экспертиза и расчет токов короткого замыкания, уставок релейной защиты и
+                        сетей;</p></li>
+                  <li class="services_li"><p>&#8226 Проведение энергетических обследований в соответствии с Федеральным законом
+                     No261 от 23 ноября 2009 г. «Об энергосбережении;</p></li>
+                  <li class="services_li"><p>&#8226 Экспертиза и расчет токов короткого замыкания, уставок релейной защиты и
                      автоматики с выдачей рекомендаций по повышению надежности электроснабжения
-                     потребителей на объектах предприятий, организаций и учреждений;</li>
-                  <li class="services_li"> &#8226 Расчет нормативов технологических потерь электрической энергии и др.;</li>
-                  <li class="services_li">&#8226 Разработка и оптимизация систем гибридных накопителей энергии;</li>
-                  <li class="services_li">&#8226 Система позиционирования и самодиагностики солнечной электростанции;</li>
-                  <li class="services_li">&#8226 Идентификация однофазных замыканий на землю.</li>
+                     потребителей на объектах предприятий, организаций и учреждений;</p></li>
+                  <li class="services_li"><p>&#8226 Расчет нормативов технологических потерь электрической энергии и др.;</p></li>
+                  <li class="services_li"><p>&#8226 Разработка и оптимизация систем гибридных накопителей энергии;</p></li>
+                  <li class="services_li"><p>&#8226 Система позиционирования и самодиагностики солнечной электростанции;</p></li>
+                  <li class="services_li"><p>&#8226 Идентификация однофазных замыканий на землю.</p></li>
                </ul>
             </div>
 			</div>
@@ -107,7 +107,7 @@
             <img src="images/v13_268.png" alt="" id="f_logo">
 				<ul id="footer_ul">
 					<li id="footer_li">
-						<p id=""class="footer_btn">Адрес: Город Ханты-Мансийск, ул.Чехова 16а</p>
+						<p id=""class="footer_btn">Адрес: г. Ханты-Мансийск,<br> ул.Чехова 16а</p>
 					</li>
 					<li>
 						<p id="" class="footer_btn">Почта: Dolingersy@ya.ru</p>
@@ -126,16 +126,16 @@
       <div class="cube"></div>
       <div class="cube"></div>
       <div class="cube"></div>
-      <div class="cube"></div>   
-      <div class="cube"></div>  
+      <div class="cube"></div>
+      <div class="cube"></div>
 <p>Связаться с нами</p>
 <form name="Form">
    <input type="email" placeholder="Ваша почта" name="email" required>
    <input type="tel" placeholder="Ваш номер" name="phone" required>
    <textarea
       type="text" class = "com" placeholder="Цель обращения" name="comment" required>
-   </textarea> 
-   <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить"> 
+   </textarea>
+   <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
 </form>
 
    </body>
@@ -150,13 +150,13 @@
       document.body.addEventListener('dblclick', dbClick());
 
 
-      // СКРОЛЛ 
+      // СКРОЛЛ
       function move(st){
          var s = document.getElementById(st);
          $.fancybox.close(true)
-         s.scrollIntoView({ 
+         s.scrollIntoView({
                block: 'start', // к ближайшей границе экрана
-               behavior: 'smooth', // и плавно 
+               behavior: 'smooth', // и плавно
             });
          console.log(st)
          console.log(s)
@@ -207,7 +207,7 @@
 				})
             $.fancybox.close(true)
 			}
-      
+
         function scr() {
       if (window.pageYOffset > 20) {
          document.querySelector('#up').style.visibility="visible";

@@ -25,12 +25,12 @@
             <img src="images/v13_267.png" alt="" id="logo">
             <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
             <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button>
-               <div id="mobile_menu">                                         
+               <div id="mobile_menu">
                   <ul id="menu">
                      <div class = "nav_link">
-                        <h1> +79043278040 <span class="flare"> </span></h1>  
-                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>   
-                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>             
+                        <h1> +79043278040 <span class="flare"> </span></h1>
+                        <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>
+                        <p> Dolingersy@ya.ru <span class="flare"> </span></p>
                      </div>
                      <div class = "nav_menu">
                         <!-- href="#" -->
@@ -44,7 +44,7 @@
                      </div>
                   </ul>
                </div>
-            
+
             <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
             <script>
                function change_mobile_menu(){
@@ -87,11 +87,11 @@
             </div>
             <div id="services_block">
                <ul id="services_ul">
-                  <li class="services_li">&#8226 Трёхмерное моделирование сложных инженерных объектов, реверс-инжиниринг;</li>
-                  <li class="services_li">&#8226 Трёхмерная печать технологиями FDM, SLA;</li>
-                  <li class="services_li">&#8226 Разработка виртуальных туров, тренажеров, приложений и квестов дополненной реальности,
-                     обзорных экскурсий 360, съёмка и разработка 360 виртуальных туров;</li>
-                  <li class="services_li">&#8226 Лазерная резка, гравировка, создание сувенирной продукции.</li>
+                  <li class="services_li"><p>&#8226 Трёхмерное моделирование сложных инженерных объектов, реверс-инжиниринг;</p></li>
+                  <li class="services_li"><p>&#8226 Трёхмерная печать технологиями FDM, SLA;</p></li>
+                  <li class="services_li"><p>&#8226 Разработка виртуальных туров, тренажеров, приложений и квестов дополненной реальности,
+                     обзорных экскурсий 360, съёмка и разработка 360 виртуальных туров;</p></li>
+                  <li class="services_li"><p>&#8226 Лазерная резка, гравировка, создание сувенирной продукции.</p></li>
                </ul>
             </div>
 			</div>
@@ -117,18 +117,17 @@
          <div class="cube"></div>
          <div class="cube"></div>
          <div class="cube"></div>
-         <div class="cube"></div>   
-         <div class="cube"></div>  
+         <div class="cube"></div>
+         <div class="cube"></div>
    <p>Связаться с нами</p>
    <form name="Form">
       <input type="email" placeholder="Ваша почта" name="email" required>
       <input type="tel" placeholder="Ваш номер" name="phone" required>
       <textarea
          type="text" class = "com" placeholder="Цель обращения" name="comment" required>
-      </textarea> 
-      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить"> 
+      </textarea>
+      <input  class="send" type="submit" onclick="send_deal(this)" value="Отправить">
    </form>
-   
 
    </body>
    <script >
@@ -142,13 +141,13 @@
       document.body.addEventListener('dblclick', dbClick());
 
 
-      // СКРОЛЛ 
+      // СКРОЛЛ
       function move(st){
          var s = document.getElementById(st);
          $.fancybox.close(true)
-         s.scrollIntoView({ 
+         s.scrollIntoView({
                block: 'start', // к ближайшей границе экрана
-               behavior: 'smooth', // и плавно 
+               behavior: 'smooth', // и плавно
             });
          console.log(st)
          console.log(s)
@@ -198,7 +197,7 @@
 				})
             $.fancybox.close(true)
 			}
-         
+
       function scr() {
       if (window.pageYOffset > 20) {
          document.querySelector('#up').style.visibility="visible";
