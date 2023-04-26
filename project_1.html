@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/main.css" rel="stylesheet" />
+	<title>Проект 1</title>
+</head>
+<body>
+	<header id="header">
+         <img src="images/v13_267.png" alt="" id="logo">
+         <!-- вся новигация, она и для компьютерной версии, и через медиа для мобильной -->
+         <button id="mobile_menu_btn" onclick="change_mobile_menu()"></button >
+            <div id="mobile_menu">
+               	<ul id="menu">
+	                <div class = "nav_link">
+	                     <h1> Мы находимся:  <span class="flare"> </span></h1>
+	                     <p> Россия, город Ханты-Мансийск, улица Чехова 16а <span class="flare"> </span></p>
+	                     <p> Dolingersy@ya.ru <span class="flare"> </span></p>
+	                     <img src="images/v13_258.png" alt="" id="line_img_3">
+	                </div>
+	                <div class = "nav_menu">
+	                     <!-- href="#" -->
+	                    <img src="images/v13_259.png" alt="" id="line_img_9">
+	                     <!-- <img src="images/v13_259.png" alt="" id="line_img_5"> -->
+	                    <a id="lab"  class = "menu_btn" onclick="window.location.href = 'index.html';">
+	                        <img src="images/icons8-микроскоп-50.png" alt="">
+	                        <li>
+	                           Главная <span class="flare">
+	                        </li>
+	                    </a>
+	                    <img src="images/v13_258.png" alt="" id="line_img_7">
+	                    <a id="link" onclick="open_contacs()" class = "menu_btn" >
+	                        <img src="images/icons8-чат-50.png"alt="">
+	                        <li>
+	                           Связь с нами <span class="flare">
+	                        </li>
+	                    </a>
+	                    <img src="images/v13_259.png" alt="" id="line_img_8">
+	                </div>
+                  	<div class = "nav_footer">
+                     	<img src="images/v13_258.png" alt="" id="line_img_4">
+	                     <border> <span class="flare"></span></border>
+	                     <img src="images/10.png" alt="">
+                  	</div>
+               </ul>
+            </div>
+
+         <!-- СКРИПТ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МОБИЛЬНОГО МЕНЮ -->
+         <script>
+            function change_mobile_menu(){
+                  $.fancybox.open({
+					   padding: [0, 0, 0, 0],
+					   src: '#mobile_menu',
+					   type: 'inline',
+					   closeClickOutside: false,
+                  opts: {
+                  	afterClose: function() {
+                        //обработчик закрытия окна
+                  	}
+                  }
+				      });
+               }
+            </script>
+         <!---------------------------------------------------------------------->
+      </header>
+</body>
+</html>
