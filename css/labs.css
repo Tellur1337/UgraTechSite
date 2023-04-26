@@ -216,7 +216,7 @@ h1.main{
   /* top: 5%;
   left: 5%; */
   /* z-index: 5; */
-  font-size: 3.5vw;
+  font-size: 3.2vw;
   color: rgba(255,255,255,1);
 }
 p.main{
@@ -254,7 +254,7 @@ h1.line_1{
   margin:0;
   left: 33%;
   z-index: 5;
-  font-size: 3.5vw;
+  font-size: 2.8vw;
   color: rgba(255,255,255,1);
   background-color: rgba(51,59,70,1);
 }
