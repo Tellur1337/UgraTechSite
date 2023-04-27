@@ -248,7 +248,7 @@ h1.line_1 {
   top: 5%;
   left: 29%;
   z-index: 5;
-  font-size: 2.5vw ;
+  font-size: 2.15vw;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -290,7 +290,8 @@ h1.lab_cart_t {
   top: 10%;
   left: 15%;
   z-index: 5;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  line-height: 2.15vw;
   color: rgba(255, 255, 255, 1);
   font-family: 'Commissioner', sans-serif;
 }
@@ -299,10 +300,11 @@ p.lab_cart_t {
   position: absolute;
   text-align: center;
   width: 95%;
-  top: 45%;
+  top: 35%;
   left: 2.5%;
   z-index: 5;
   font-size: 1.67vw;
+  line-height: 2vw;
   color: rgba(254, 228, 195, 1);
   font-family: 'Commissioner', sans-serif;
 }
@@ -325,7 +327,7 @@ h1.line_2 {
   top: 5%;
   left: 32%;
   z-index: 5;
-  font-size: 2.5vw;
+  font-size: 2.15vw;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -1078,18 +1080,22 @@ z-index: 401;
   font-size: 7vw;
   margin-top: 15%;
   margin-left: 5%;
-  position: relative;
-  overflow-x: hidden;
+  position: relative; 
+  overflow-x: hidden; 
   height: 7vh;
   background: linear-gradient(45deg, #e4e4b2 22%, #ffffff 55%, #ced6a1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #546581;
+  /* color: #fee4c3; */
+  /* color: #000000; */
+  font-weight:900;
 }
 
 .nav_menu img{
   display: block;
-  margin-right: 5%;
+  margin-right: 10%;
+  width: 15%;
+  height: 60%;
 }
 
 
@@ -1100,6 +1106,8 @@ z-index: 401;
 .nav_link{
   display: block;
   visibility: visible;
+  border-bottom: 2px solid #fee4c3;
+  
 }
 .nav_link h1{
   margin-left: 3vw;
@@ -1111,13 +1119,20 @@ z-index: 401;
    color:#ffffff;
   /* color: #000000; */ 
   font-weight: 700;
+ 
 }
-	
 .nav_link p{
-  font-size: 4vw;
-  margin-bottom: 2vh;
-  margin-left: 3vw;
-  color: #e0ddd9;
+  font-size: 5vw;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+  /* color: #e0ddd9; */
+  /* color: #000000; */
+  /* background: linear-gradient(45deg, #f0f0d9 22%, #ffffff 55%, #f1f5d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color:#ffffff;
+  font-weight: 500;
+  
 }
 
 .nav_link .flare {
@@ -1125,7 +1140,7 @@ z-index: 401;
   top: 0;
   height: 100%;
   width: 45px;
-  transform: skewX(-45deg);
+  transform: skewX(-45deg); 
   animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
@@ -1152,10 +1167,11 @@ z-index: 401;
   transform: skewX(-45deg); 
   animation: flareAnimation;
   left: -150%;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(245, 189, 163, 0.4));
   animation: flareAnimation 3s infinite linear; 
 }
 .nav_footer{
+  border-top: 2px solid #fee4c3;
   display: inline;
   visibility: visible;
   width: 326px;
@@ -1164,15 +1180,14 @@ z-index: 401;
   }
   
   .nav_footer img{
-    margin-top: 3%;
-    width: 150px;
-    margin-right: 3%;
+    margin-top: 6%;
+    width: 40vw;
     }
   
   .nav_menu{
     display: block;
     visibility: visible;
-    /*margin-top: 30%;*/
+    margin-top: 47%;
   }
   
 /* @keyframes flareAnimation {
@@ -1367,7 +1382,8 @@ p.project_cart_t{
   height: auto;
   top: 35%;
   z-index: 1;
-  font-size: 1.5vw;
+  font-size: 1.67vw;
+  line-height: 2.3vw;
   background-color: transparent;
   color: rgba(254,228,195,1);
   white-space: normal;
