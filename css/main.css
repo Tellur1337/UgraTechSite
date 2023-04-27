@@ -303,7 +303,7 @@ p.lab_cart_t {
   top: 35%;
   left: 2.5%;
   z-index: 5;
-  font-size: 2vw;
+  font-size: 1.67vw;
   line-height: 2vw;
   color: rgba(254, 228, 195, 1);
   font-family: 'Commissioner', sans-serif;
@@ -1351,7 +1351,7 @@ p.project_cart_t{
   height: auto;
   top: 35%;
   z-index: 1;
-  font-size: 2vw;
+  font-size: 1.67vw;
   line-height: 2.3vw;
   background-color: transparent;
   color: rgba(254,228,195,1);
