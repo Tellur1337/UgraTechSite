@@ -683,12 +683,10 @@ form .com{
     padding: 1vw;
     margin-left: 3vw;
   }
-
   .arrow-top-2 {
     right: 4%;
-    scale: 2; 
+    scale: 2;
   }
-  
   /* МОДАЛЬНОЕ ОКНО */
   #contacs {
     display: flex;
@@ -701,19 +699,16 @@ form .com{
     overflow: hidden;
     font-family: 'Commissioner', sans-serif;
   }
-  
   #contacs p{
     margin-top: 3%;
     padding-left: 13%;
     font-size: 5vw;
   }
-  
   #contacs input{
     margin: 2%;
     width: 90%;
     height: 50%;
   }
-  
   #contacs form{
     height: 25%;
     padding-left: 10%;
@@ -753,8 +748,8 @@ textarea{
   z-index: 10;
   background-color: #ffffff;
   font-family: 'Commissioner', sans-serif;
-  position: relative; 
-  overflow-x: hidden; 
+  position: relative;
+  overflow-x: hidden;
 }
 
 #mobile_menu .fancybox-close-small{
