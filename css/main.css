@@ -248,7 +248,7 @@ h1.line_1 {
   top: 5%;
   left: 29%;
   z-index: 5;
-  font-size: 2.8vw;
+  font-size: 2.5vw ;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -271,7 +271,7 @@ h1.line_1 {
   position: relative;
   border-radius: 2vw;
   /*margin-right: 1%;*/
-  font-family: 'Commissioner', sans-serif;
+  /*font-family: 'Commissioner', sans-serif;*/
   padding-top: -5vh;
   cursor: pointer;
 }
@@ -283,15 +283,16 @@ h1.line_1 {
   border-radius: 2vw;
 }
 
-h2.lab_cart_t {
+h1.lab_cart_t {
   position: absolute;
   width: 70%;
   text-align: center;
   top: 10%;
   left: 15%;
   z-index: 5;
-  font-size: 2vw;
+  font-size: 2.5vw;
   color: rgba(255, 255, 255, 1);
+  font-family: 'Commissioner', sans-serif;
 }
 
 p.lab_cart_t {
@@ -324,7 +325,7 @@ h1.line_2 {
   top: 5%;
   left: 32%;
   z-index: 5;
-  font-size: 2.8vw;
+  font-size: 2.5vw !important;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -1069,8 +1070,8 @@ z-index: 401;
   font-size: 7vw;
   margin-top: 15%;
   margin-left: 5%;
-  position: relative; 
-  overflow-x: hidden; 
+  position: relative;
+  overflow-x: hidden;
   height: 7vh;
   background: linear-gradient(45deg, #e4e4b2 22%, #ffffff 55%, #ced6a1);
   -webkit-background-clip: text;
@@ -1113,7 +1114,7 @@ z-index: 401;
   top: 0;
   height: 100%;
   width: 45px;
-  transform: skewX(-45deg); 
+  transform: skewX(-45deg);
   animation: flareAnimation;
   left: -150%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
