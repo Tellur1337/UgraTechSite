@@ -502,7 +502,7 @@ form .com{
   
 
 
-@keyframes Gradient {
+/* @keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -522,7 +522,7 @@ form .com{
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
-}
+} */
 
 
 
