@@ -405,10 +405,12 @@ li p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60%;
+  height: 70%;
   width: 40%;
-  background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
-  animation: Gradient 15s ease infinite;
+  /* background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
+  animation: Gradient 15s ease infinite; */
+  background-image: url("../images/back_con2.jpg");
+  background-size: cover;
   overflow: hidden;
   font-family: 'Commissioner', sans-serif;
 }
@@ -482,16 +484,17 @@ form .com{
   width: 20%;
   cursor: pointer;
   background: transparent;
-  border: 2px solid #a2ac7a;
+  border: 4px solid #fee4c3;
   outline: none;
   transition: 1s ease-in-out;
-  color:#a2ac7a;
+  color:#fee4c3;
+  font-size: 1.5vw;
 }
 
 .send:hover {
   transition: 1s ease-in-out;
   color:#FFF;
-  border: 2px solid #ffffff;
+  border: solid #ffffff;
 }
 
 .send:hover input {
@@ -501,7 +504,7 @@ form .com{
   
 
 
-@keyframes Gradient {
+/* @keyframes Gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -521,7 +524,7 @@ form .com{
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
-}
+} */
 
 
 
@@ -536,11 +539,12 @@ form .com{
     color: #000;
     height: 12vw;
   }
-  #logo{
-    width: 40%;
+ #logo{
+    width: 35%;
+    height: 60%;
     display: inline;
-    margin-left: 5vw;
-    padding: 1vw;
+    padding-left: 2vw;
+    padding-top: 4%;
   }
 
   ul{
@@ -631,17 +635,18 @@ form .com{
     display: none;
   }
 /* МОДАЛЬНОЕ ОКНО */
-  #contacs {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40%;
-    width: 80%;
-    background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
-    animation: Gradient 15s ease infinite;
-    overflow: hidden;
-    font-family: 'Commissioner', sans-serif;
-  }
+ #contacs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  /* background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
+  animation: Gradient 15s ease infinite; */
+  background-image: url("../images/back_con2.jpg");
+  overflow: hidden;
+  font-family: 'Commissioner', sans-serif;
+}
 
   #contacs p{
     margin-top: 3%;
@@ -669,6 +674,10 @@ form .com{
     width: 90%;
     height: 60%;
   }
+
+.send{
+  font-size: 4vw;
+}
 
 /* МОДАЛЬНОЕ ОКНО */
 
@@ -1029,7 +1038,11 @@ form .com{
   height: 38px;
   border-radius: 50%;
   background-color: #fee4c3;
-  background-image: url("../images/icons8-меню-35.png");
+  background-image: url("../images/7.png");
+  background-size: 100%; 
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
   z-index:10;
 }
 
@@ -1039,10 +1052,12 @@ form .com{
   width: 100%;
   height: 100%;
   z-index: 10;
-  background-color: #333b46;
+  background-image: url("../images/back_menu6.jpg");
+  /* background-color: #333b46; */
   font-family: 'Commissioner', sans-serif;
   position: relative; 
   overflow-x: hidden; 
+  background-size:cover;
 }
 
 #mobile_menu .fancybox-close-small{
@@ -1089,14 +1104,17 @@ z-index: 401;
   visibility: visible;
 }
 .nav_link h1{
-  font-size: 6vw;
+  margin-left: 3vw;
+  font-size: 9vw;
   margin-bottom: 5vh;
   /* background: linear-gradient(45deg, #e9e9b4 22%, #f3eeae 55%, #d6d1a1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
-  color:#fee4c3;
- 
+   color:#ffffff;
+  /* color: #000000; */ 
+  font-weight: 700;
 }
+	
 .nav_link p{
   font-size: 4vw;
   margin-bottom: 2vh;
