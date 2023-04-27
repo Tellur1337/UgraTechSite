@@ -730,7 +730,8 @@ form .com{
     top: 30%;
     left: 2.5%;
     z-index: 5;
-    font-size: 4.7vw;
+    font-size: 4vw;
+    line-height: 5vw;
     font-family: 'Commissioner', sans-serif;
   }
   #gallery{
@@ -925,7 +926,8 @@ form .com{
     top: 25%;
     left: 2.5%;
     z-index: 5;
-    font-size: 4.5vw;
+    font-size: 4vw;
+    line-height: 5vw;
     color: rgba(254,228,195,1);
     font-family: 'Commissioner', sans-serif;
   }
@@ -934,7 +936,8 @@ form .com{
     top: 20%;
     width: 95%;
     height: auto;
-    font-size: 4.7vw;
+    font-size: 4vw;
+    line-height: 5vw;
   }
   .project_btn{
     border-radius: 50%;
