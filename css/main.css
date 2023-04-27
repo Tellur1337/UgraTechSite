@@ -248,7 +248,7 @@ h1.line_1 {
   top: 5%;
   left: 29%;
   z-index: 5;
-  font-size: 2.5vw ;
+  font-size: 2.15vw;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -290,7 +290,8 @@ h1.lab_cart_t {
   top: 10%;
   left: 15%;
   z-index: 5;
-  font-size: 2.5vw;
+  font-size: 2vw;
+  line-height: 2.15vw;
   color: rgba(255, 255, 255, 1);
   font-family: 'Commissioner', sans-serif;
 }
@@ -299,10 +300,11 @@ p.lab_cart_t {
   position: absolute;
   text-align: center;
   width: 95%;
-  top: 45%;
+  top: 35%;
   left: 2.5%;
   z-index: 5;
-  font-size: 1.67vw;
+  font-size: 2vw;
+  line-height: 2vw;
   color: rgba(254, 228, 195, 1);
   font-family: 'Commissioner', sans-serif;
 }
@@ -325,7 +327,7 @@ h1.line_2 {
   top: 5%;
   left: 32%;
   z-index: 5;
-  font-size: 2.5vw;
+  font-size: 2.15vw;
   color: rgba(255, 255, 255, 1);
   background-color: rgba(51, 59, 70, 1);
   font-family: 'Commissioner', sans-serif;
@@ -1349,7 +1351,8 @@ p.project_cart_t{
   height: auto;
   top: 35%;
   z-index: 1;
-  font-size: 1.5vw;
+  font-size: 2vw;
+  line-height: 2.3vw;
   background-color: transparent;
   color: rgba(254,228,195,1);
   white-space: normal;
