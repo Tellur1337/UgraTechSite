@@ -37,7 +37,7 @@ body {
 }
 
 .menu_btn:hover {
-  color: #e3f78d;
+  color: rgba(254,228,195,1);/*color: #e3f78d;*/
   font-size: 1.2vw;
   transition: color 0.3s linear;
 }
@@ -639,52 +639,51 @@ form .com{
     display: none;
   }
 /* МОДАЛЬНОЕ ОКНО */
-#contacs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40%;
-  width: 80%;
-  background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
-  animation: Gradient 15s ease infinite;
-  overflow: hidden;
-  font-family: 'Commissioner', sans-serif;
-}
+  #contacs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 80%;
+    background: linear-gradient(132deg, #f8f8f6, #f1efdc, #e8ebe4);
+    animation: Gradient 15s ease infinite;
+    overflow: hidden;
+    font-family: 'Commissioner', sans-serif;
+  }
 
-#contacs p{
-  margin-top: 3%;
-  padding-left: 13%;
-  font-size: 5vw;
-}
+  #contacs p{
+    margin-top: 3%;
+    padding-left: 13%;
+    font-size: 5vw;
+  }
 
-#contacs input{
-  margin: 2%;
-  width: 90%;
-  height: 50%;
-}
+  #contacs input{
+    margin: 2%;
+    width: 90%;
+    height: 50%;
+  }
 
-#contacs form{
-  height: 25%;
-  padding-left: 10%;
-}
+  #contacs form{
+    height: 25%;
+    padding-left: 10%;
+  }
 
-form .com{
-height: 100%!important;
-}
+  form .com{
+    height: 100%!important;
+  }
 
-#contacs input,
-textarea{
-margin: 2%;
-width: 90%;
-height: 60%;
-}
+  #contacs input,textarea{
+    margin: 2%;
+    width: 90%;
+    height: 60%;
+  }
 
 /* МОДАЛЬНОЕ ОКНО */
 
-.arrow-top-2 {
-  right: 4%;
-  scale: 2;
-}
+  .arrow-top-2 {
+    right: 4%;
+    scale: 2;
+  }
   .line{
     margin-top: 1vh;
     width: 100%;
@@ -709,15 +708,17 @@ height: 60%;
 
   #labs_block{
     margin-top: 1vh;
-    width: 87%;
-    padding-left: 13%;
-  }
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: grid ;
+    justify-content: center !important;
+    }
   .lab_cart{
     display: block;
-    width: 87%;
+    width: 100%;
     height: 40vh;
     border-radius: 2.5vw;
-    margin-right: 0;
     margin-bottom: 1vh;
     cursor: pointer;
   }
